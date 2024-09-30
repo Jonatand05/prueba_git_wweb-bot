@@ -10,6 +10,7 @@ app = Flask(__name__)
 
 # Función para mostrar mensaje
 def mensaje():
+    print("SOY UN PRINT")
     return "Hola, este endpoint consiste en consultar a una base de datos en especifico, para poder descargar un reporte en excel con la ayuda de la libreria openpyxl"
 
 # Ruta para validar las fechas y registrar el pago
